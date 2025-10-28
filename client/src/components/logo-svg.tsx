@@ -2,7 +2,7 @@ export function LogoSvg() {
   return (
     <svg
       viewBox="0 0 800 500"
-      className="w-full max-w-3xl md:max-w-4xl h-auto"
+      className="w-full max-w-4xl md:max-w-5xl lg:max-w-6xl h-auto"
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Outer frame */}

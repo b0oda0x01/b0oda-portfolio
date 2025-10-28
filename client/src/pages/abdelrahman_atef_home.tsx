@@ -17,7 +17,7 @@ export default function AbdelrahmanAtefHome() {
           <div className="mt-12">
             <Link 
               href="/bio"
-              className="inline-block text-xl md:text-2xl font-mono text-primary hover:text-primary/80 transition-all duration-300 border-b-2 border-primary/50 hover:border-primary pb-1 animate-glow-pulse"
+              className="inline-block text-2xl md:text-3xl lg:text-4xl font-mono text-primary hover:text-primary/80 transition-all duration-300 border-b-2 border-primary/50 hover:border-primary pb-1 animate-glow-pulse"
               style={{
                 textShadow: '0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4)',
               }}
