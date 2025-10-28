@@ -32,7 +32,7 @@ export default function AbdelrahmanAtefContacts() {
             <h1 
               className="text-3xl md:text-4xl font-mono font-bold text-primary mb-12"
               style={{
-                textShadow: '0 0 15px hsl(120 100% 50% / 0.4)',
+                textShadow: '0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4)',
               }}
               data-testid="text-contacts-header"
             >

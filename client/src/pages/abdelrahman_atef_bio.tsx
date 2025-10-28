@@ -32,7 +32,7 @@ export default function AbdelrahmanAtefBio() {
             <h1 
               className="text-3xl md:text-4xl font-mono font-bold text-primary mb-6"
               style={{
-                textShadow: '0 0 15px hsl(120 100% 50% / 0.4)',
+                textShadow: '0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4)',
               }}
               data-testid="text-headline"
             >
@@ -81,7 +81,7 @@ export default function AbdelrahmanAtefBio() {
                   href="/contacts"
                   className="inline-block text-xl font-mono text-primary hover:text-primary/80 transition-all duration-300 border-b-2 border-primary/50 hover:border-primary pb-1"
                   style={{
-                    textShadow: '0 0 10px hsl(120 100% 50% / 0.3)',
+                    textShadow: '0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4)',
                   }}
                   data-testid="link-contacts-cta"
                 >

@@ -1,6 +1,7 @@
 import { Link } from 'wouter';
 import { BinaryRain } from '@/components/abdelrahman_atef_binary_rain';
 import { LogoSvg } from '@/components/logo-svg';
+import { AnimatedText } from '@/components/animated-text';
 
 export default function AbdelrahmanAtefHome() {
   return (
@@ -16,13 +17,13 @@ export default function AbdelrahmanAtefHome() {
           <div className="mt-12">
             <Link 
               href="/bio"
-              className="inline-block text-xl md:text-2xl font-mono text-primary hover:text-primary/80 transition-all duration-300 border-b-2 border-primary/50 hover:border-primary pb-1"
+              className="inline-block text-xl md:text-2xl font-mono text-primary hover:text-primary/80 transition-all duration-300 border-b-2 border-primary/50 hover:border-primary pb-1 animate-glow-pulse"
               style={{
-                textShadow: '0 0 10px hsl(120 100% 50% / 0.3)',
+                textShadow: '0 0 10px rgba(0, 255, 65, 0.8), 0 0 20px rgba(0, 255, 65, 0.6), 0 0 30px rgba(0, 255, 65, 0.4)',
               }}
               data-testid="link-bio"
             >
-              N33D H3LP? M33T M3
+              <AnimatedText text="N33D H3LP? M33T M3" showCursor={true} />
             </Link>
           </div>
         </div>

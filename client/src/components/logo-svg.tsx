@@ -11,7 +11,7 @@ export function LogoSvg() {
         y="30"
         width="740"
         height="440"
-        stroke="#00ff00"
+        stroke="#00ff41"
         strokeWidth="2.5"
         fill="none"
         opacity="0.3"
@@ -20,7 +20,7 @@ export function LogoSvg() {
       {/* Corner decorations - top left */}
       <path
         d="M30,30 L90,30 M30,30 L30,90"
-        stroke="#00ff00"
+        stroke="#00ff41"
         strokeWidth="1.5"
         opacity="0.8"
       />
@@ -28,7 +28,7 @@ export function LogoSvg() {
       {/* Corner decorations - top right */}
       <path
         d="M710,30 L770,30 M770,30 L770,90"
-        stroke="#00ff00"
+        stroke="#00ff41"
         strokeWidth="1.5"
         opacity="0.8"
       />
@@ -36,7 +36,7 @@ export function LogoSvg() {
       {/* Corner decorations - bottom left */}
       <path
         d="M30,410 L90,410 M30,410 L30,470"
-        stroke="#00ff00"
+        stroke="#00ff41"
         strokeWidth="1.5"
         opacity="0.8"
       />
@@ -44,7 +44,7 @@ export function LogoSvg() {
       {/* Corner decorations - bottom right */}
       <path
         d="M710,470 L770,470 M770,410 L770,470"
-        stroke="#00ff00"
+        stroke="#00ff41"
         strokeWidth="1.5"
         opacity="0.8"
       />
@@ -64,9 +64,9 @@ export function LogoSvg() {
         x="400"
         y="180"
         fontSize="140"
-        fontFamily="'JetBrains Mono', 'Fira Code', monospace"
+        fontFamily="'Source Code Pro', 'Courier New', monospace"
         fontWeight="bold"
-        fill="#00ff00"
+        fill="#00ff41"
         textAnchor="middle"
         filter="url(#glow)"
         opacity="0.9"
@@ -79,8 +79,8 @@ export function LogoSvg() {
         x="400"
         y="300"
         fontSize="28"
-        fontFamily="'JetBrains Mono', monospace"
-        fill="#00ff00"
+        fontFamily="'Source Code Pro', 'Courier New', monospace"
+        fill="#00ff41"
         textAnchor="middle"
         opacity="0.6"
         letterSpacing="1"
@@ -91,8 +91,8 @@ export function LogoSvg() {
         x="400"
         y="340"
         fontSize="28"
-        fontFamily="'JetBrains Mono', monospace"
-        fill="#00ff00"
+        fontFamily="'Source Code Pro', 'Courier New', monospace"
+        fill="#00ff41"
         textAnchor="middle"
         opacity="0.6"
         letterSpacing="1"
@@ -105,8 +105,8 @@ export function LogoSvg() {
         x="400"
         y="430"
         fontSize="14"
-        fontFamily="'JetBrains Mono', monospace"
-        fill="#00ff00"
+        fontFamily="'Source Code Pro', 'Courier New', monospace"
+        fill="#00ff41"
         textAnchor="middle"
         opacity="0.3"
         letterSpacing="2"
